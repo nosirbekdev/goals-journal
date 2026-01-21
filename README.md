@@ -57,16 +57,6 @@ quasar dev
 Brauzerda ochiladi:
 👉 http://localhost:9000
 
-🧹 Lint
-```
-npm run lint
-```
-
-🎨 Format
-```
-npm run format
-```
-
 🏗 Build (production)
 ```
 quasar build
