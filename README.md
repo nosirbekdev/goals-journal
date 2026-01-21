@@ -1,43 +1,98 @@
-# Quasar App (goals-journal)
+🎯 Goals Journal — Maqsadlar kundaligi
 
-A Quasar Project
+Goals Journal — bu Vue 3 + Quasar + TypeScript + Pinia asosida qurilgan zamonaviy web ilova.
+U orqali foydalanuvchi o‘z maqsadlarini belgilaydi, muddat qo‘yadi va bajarilishini nazorat qiladi.
 
-## Install the dependencies
+🚀 Demo
 
-```bash
-yarn
-# or
+(bu yerga keyin deploy link qo‘yasan)
+Masalan: https://goals-journal.vercel.app
+
+✨ Asosiy imkoniyatlar
+
+➕ Maqsad qo‘shish / tahrirlash / o‘chirish
+
+📅 Oxirgi muddat (deadline) belgilash
+
+🔄 Avtomatik holat:
+
+Jarayonda
+
+Bajarildi
+
+Muddati o‘tgan
+
+⛔ Deadline kelmaguncha “bajarildi” qilib bo‘lmaydi
+
+📊 Dashboard statistikasi
+
+📄 Sahifalash (5 / 10 / 25 / 50 / 100)
+
+💾 LocalStorage’da saqlash
+
+🎨 Zamonaviy dizayn (Quasar UI)
+
+🇺🇿 To‘liq o‘zbekcha interfeys
+
+🛠 Texnologiyalar
+Vue 3
+Quasar Framework
+TypeScript
+Pinia
+Vue Router (history mode)
+LocalStorage
+
+⚙️ O‘rnatish
+```
+git clone https://github.com/nosirbekdev/goals-journal.git
+cd goals-journal
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-
-```bash
+▶ Ishga tushirish
+```
 quasar dev
 ```
 
-### Lint the files
+Brauzerda ochiladi:
+👉 http://localhost:9000
 
-```bash
-yarn lint
-# or
+🧹 Lint
+```
 npm run lint
 ```
 
-### Format the files
-
-```bash
-yarn format
-# or
+🎨 Format
+```
 npm run format
 ```
 
-### Build the app for production
-
-```bash
+🏗 Build (production)
+```
 quasar build
 ```
 
-### Customize the configuration
+📂 Loyiha tuzilishi
+```
+src/
+├── layouts/
+│   └── MainLayout.vue
+├── pages/
+│   ├── Dashboard.vue
+│   └── Goals.vue
+├── stores/
+│   └── goals.store.ts
+├── router/
+│   └── routes.ts
+```
 
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+👨‍💻 Muallif
+
+Nosirbek Ismoilov
+Fullstack Web Developer
+
+GitHub: https://github.com/nosirbekdev
+
+📜 Litsenziya
+
+Ushbu loyiha ta’lim va portfolio maqsadlari uchun yaratilgan.
