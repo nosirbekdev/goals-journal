@@ -4,9 +4,7 @@ Goals Journal — bu Vue 3 + Quasar + TypeScript + Pinia asosida qurilgan zamona
 U orqali foydalanuvchi o‘z maqsadlarini belgilaydi, muddat qo‘yadi va bajarilishini nazorat qiladi.
 
 🚀 Demo
-
-(bu yerga keyin deploy link qo‘yasan)
-Masalan: https://goals-journal.vercel.app
+ [https://goals-journal.vercel.app](https://goals-journal-five.vercel.app/)
 
 ✨ Asosiy imkoniyatlar
 
